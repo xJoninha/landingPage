@@ -26,7 +26,6 @@
 body {
     width: 100%;
     height: 100%;
-    /* border: 1px solid red; */
     background-color: #f7f7f7;
 }
 
@@ -48,8 +47,6 @@ header {
 }
 
 .home-about a{
-    /* padding-left: 70px;
-    padding-right: 70px; */
     font-family: var(--fonte-family-raleway);
     font-size: var(--fonte-size-20);
     color: var(--color-black);
@@ -62,19 +59,9 @@ header {
 .logo {
     position: relative;
     top: 239px;
-    
     width: 422px;
     height: 578px;
     z-index: -2;
-    /* padding: 36px 110px; */
-
-
-    /* height: 597.88px; */
-    /* position: absolute; */
-    /* margin: auto 40%; */
-    /* background: linear-gradient(180deg, #E8B1B8 4.48%, #FDFEFE 89.37%); */
-    /* border-radius: 0 0 50% 50%; */
-    /* transform: rotate(-180deg); */
 }
 
 .logo p{
@@ -91,8 +78,6 @@ header {
 }
 
 .login-signup a{
-    /* padding-left: 70px;
-    padding-right: 70px; */
     font-family: var(--fonte-family-raleway);
     font-size: var(--fonte-size-20);
     color: var(--color-black);
@@ -135,7 +120,6 @@ main button {
 }
 
 .main-texts {
-    /* border: 1px solid red; */
     width: 720px;
     height: auto;
     display: flex;
@@ -143,7 +127,6 @@ main button {
     position: absolute;
     top: 315px;
     left: 104px;
-    
 }
 
 .main-texts h1 {
