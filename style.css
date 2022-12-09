@@ -1,0 +1,166 @@
+@import url('https://fonts.googleapis.com/css2?family=Raleway&display=swap');
+@import url('https://fonts.cdnfonts.com/css/histora-beralin');
+
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+:root {
+    --color-white: #FDFEFE;
+    --color-blue: #3A59FF;
+    --color-black: #000000;
+    --color-pink: #FF8B99;
+    --color-brown: #271908;
+    --fonte-family-raleway: 'Raleway';
+    --fonte-maiandraGd: 'Maiandra GD','maiandra-gd-regular', 'sans-serif';
+    --fonte-historaBeralin: 'Histora Beralin';
+    --fonte-size-20: 20px;
+    --fonte-size-22: 22px;
+    --fonte-size-28: 28px;
+    --fonte-size-36: 36px;
+    --fonte-size-85: 85px;
+}
+
+body {
+    width: 100%;
+    height: 100%;
+    /* border: 1px solid red; */
+    background-color: #f7f7f7;
+}
+
+a {
+    text-decoration: none;
+}
+
+header {
+    height: 100px;
+    display: flex;
+    justify-content: space-around;
+    flex-direction: row;
+    text-align: center;
+    align-items: center;
+}
+
+.home-about :nth-child(1){
+    padding-right: 90px;
+}
+
+.home-about a{
+    /* padding-left: 70px;
+    padding-right: 70px; */
+    font-family: var(--fonte-family-raleway);
+    font-size: var(--fonte-size-20);
+    color: var(--color-black);
+}
+
+.home-about .home{
+    color: var(--color-blue);
+}
+
+.logo {
+    position: relative;
+    top: 239px;
+    
+    width: 422px;
+    height: 578px;
+    z-index: -2;
+    /* padding: 36px 110px; */
+
+
+    /* height: 597.88px; */
+    /* position: absolute; */
+    /* margin: auto 40%; */
+    /* background: linear-gradient(180deg, #E8B1B8 4.48%, #FDFEFE 89.37%); */
+    /* border-radius: 0 0 50% 50%; */
+    /* transform: rotate(-180deg); */
+}
+
+.logo p{
+    text-align: center;
+    font-size: var(--fonte-size-28);
+    font-family: var(--fonte-maiandraGd);
+    letter-spacing: 1.305em;
+    font-weight: bold;
+    color: var(--color-white);
+}
+
+.login-signup :nth-child(1){
+    padding-right: 30px;
+}
+
+.login-signup a{
+    /* padding-left: 70px;
+    padding-right: 70px; */
+    font-family: var(--fonte-family-raleway);
+    font-size: var(--fonte-size-20);
+    color: var(--color-black);
+}
+
+.login-signup .sign-up {
+    color: var(--color-pink);
+    border: 1px solid var(--color-pink);
+    border-radius: 20px;
+    padding: 6px 27px 7px 26px;
+}
+
+main h1 {
+    color: var(--color-brown);
+    font-family: var(--fonte-historaBeralin);
+    font-size: var(--fonte-size-85);
+    font-weight: 400;
+    letter-spacing: 0.07em;
+}
+
+main strong {
+    color: var(--color-blue);
+    font-weight: 400;
+}
+
+main p {
+    font-family: var(--fonte-family-raleway);
+    font-size: var(--fonte-size-28);
+}
+
+main button {
+    font-family: var(--fonte-family-raleway);
+    font-size: var(--fonte-size-22);
+    width: 227px;
+    height: 66px;
+    border-radius: 40px;
+    border: none;
+    background-color: var(--color-brown);
+    color: var(--color-white);
+}
+
+.main-texts {
+    /* border: 1px solid red; */
+    width: 720px;
+    height: auto;
+    display: flex;
+    flex-direction: column;
+    position: absolute;
+    top: 315px;
+    left: 104px;
+    
+}
+
+.main-texts h1 {
+    margin-bottom: 30px;
+}
+
+.main-texts p {
+    margin-bottom: 77px;
+    position: relative;
+    left: 16px;
+}
+
+.main-image {
+    position: absolute;
+    bottom: 0;
+    right: 50px;
+    z-index: -1;
+    height: 897px;
+    overflow: hidden;
+}
