@@ -12,4 +12,4 @@
 >E está bem parecido
 ![alt text](result/resultimage2.png)
 
-Figma: https://www.figma.com/file/qkkUmNBIjRt3uoQLUXvEWX/Landing-page-design-(Community)?node-id=0%3A1&t=hbI2JtZ9dJfw6JQe-0
+Referencia: [Figma!](https://www.figma.com/file/qkkUmNBIjRt3uoQLUXvEWX/Landing-page-design-(Community)?node-id=0%3A1&t=hbI2JtZ9dJfw6JQe-0)
