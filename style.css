@@ -37,8 +37,6 @@ header {
     height: 100px;
     display: flex;
     justify-content: space-around;
-    flex-direction: row;
-    text-align: center;
     align-items: center;
 }
 
@@ -90,25 +88,39 @@ header {
     padding: 6px 27px 7px 26px;
 }
 
-main h1 {
+main {
+    overflow: hidden;
+}
+
+.container {
+    display: flex;
+    justify-content: space-between;
+    height: auto;
+    width: 1440px; 
+    margin-left: auto;
+    margin-right: auto; 
+}
+
+.container h1 {
     color: var(--color-brown);
     font-family: var(--fonte-historaBeralin);
     font-size: var(--fonte-size-85);
     font-weight: 400;
     letter-spacing: 0.07em;
+    text-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
 }
 
-main strong {
+.container strong {
     color: var(--color-blue);
     font-weight: 400;
 }
 
-main p {
+.container p {
     font-family: var(--fonte-family-raleway);
     font-size: var(--fonte-size-28);
 }
 
-main button {
+.container button {
     font-family: var(--fonte-family-raleway);
     font-size: var(--fonte-size-22);
     width: 227px;
@@ -120,13 +132,15 @@ main button {
 }
 
 .main-texts {
-    width: 720px;
+    min-width: 760px;
     height: auto;
     display: flex;
     flex-direction: column;
-    position: absolute;
-    top: 315px;
-    left: 104px;
+    margin-top: auto;
+    margin-bottom: auto;
+    position: relative;
+    left: 115px;
+    top: -11px;
 }
 
 .main-texts h1 {
@@ -140,10 +154,19 @@ main button {
 }
 
 .main-image {
-    position: absolute;
-    bottom: 0;
-    right: 50px;
     z-index: -1;
-    height: 897px;
-    overflow: hidden;
+    min-width: 834px;
+    position: relative;
+    right: 230px;
+    top: 49px;
 }
+
+.main-image img {
+    width: 100%;
+}
+
+/* @media screen and (min-width: 1440px){
+    .container {
+        width: 1440px;
+    }
+} */
